@@ -372,7 +372,7 @@ export default function App() {
             className="max-w-md text-sm md:text-base opacity-60 font-light mb-16 leading-relaxed"
           >
             Швидка та дбайлива доставка квітів по всьому Києву. <br className="hidden md:block" />
-            Безкоштовна доставка від 2000 грн.
+            Безкоштовна доставка від 1000 грн.
           </motion.p>
 
           <motion.div variants={staggerItem} className="flex flex-col sm:flex-row gap-6 items-center">
