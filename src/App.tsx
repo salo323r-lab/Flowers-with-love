@@ -6,17 +6,17 @@ const popularBouquets = [
   {
     name: "Ніжність світанку",
     price: "2 500 ₴",
-    image: "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=800&auto=format&fit=crop"
+    image: "/assets/bestseller_1.png"
   },
   {
     name: "Оксамитова ніч",
     price: "3 200 ₴",
-    image: "https://images.unsplash.com/photo-1457089328109-e5d9bd499191?q=80&w=800&auto=format&fit=crop"
+    image: "/assets/bestseller_2.png"
   },
   {
     name: "Весняний подих",
     price: "1 800 ₴",
-    image: "https://images.unsplash.com/photo-1558882224-dda166733046?q=80&w=800&auto=format&fit=crop"
+    image: "/assets/bestseller_3.png"
   },
 ];
 
@@ -229,28 +229,28 @@ export default function App() {
           {/* Column 1 */}
           <div className="flex flex-col gap-6 md:gap-10 mt-0">
             <motion.div variants={staggerItem} className="group relative aspect-[3/4] overflow-hidden bg-[#111]">
-              <img src="https://images.unsplash.com/photo-1508610048659-a06b669e3321?q=80&w=800&auto=format&fit=crop" alt="Авторський букет з троянд" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_1.png" alt="Авторський букет з троянд" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
             <motion.div variants={staggerItem} className="group relative aspect-square overflow-hidden bg-[#111]">
-              <img src="https://images.unsplash.com/photo-1562690868-60bbe7293e94?q=80&w=800&auto=format&fit=crop" alt="Букет з піонів" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_2.png" alt="Букет з піонів" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
           </div>
           {/* Column 2 */}
           <div className="flex flex-col gap-6 md:gap-10 md:mt-32">
             <motion.div variants={staggerItem} className="group relative aspect-square overflow-hidden bg-[#111]">
-              <img src="https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?q=80&w=800&auto=format&fit=crop" alt="Квіткова композиція" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_3.png" alt="Квіткова композиція" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
             <motion.div variants={staggerItem} className="group relative aspect-[3/4] overflow-hidden bg-[#111]">
-              <img src="https://images.unsplash.com/photo-1591886960571-74d43a9d4166?q=80&w=800&auto=format&fit=crop" alt="Букет у стилі бохо" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_4.png" alt="Букет у стилі бохо" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
           </div>
           {/* Column 3 */}
           <div className="flex flex-col gap-6 md:gap-10 md:mt-16">
             <motion.div variants={staggerItem} className="group relative aspect-[3/4] overflow-hidden bg-[#111]">
-              <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?q=80&w=800&auto=format&fit=crop" alt="Весільний букет" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_5.png" alt="Весільний букет" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
             <motion.div variants={staggerItem} className="group relative aspect-square overflow-hidden bg-[#111]">
-              <img src="https://images.unsplash.com/photo-1558882224-dda166733046?q=80&w=800&auto=format&fit=crop" alt="Мінімалістичний букет" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_6.png" alt="Мінімалістичний букет" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
           </div>
         </motion.div>
