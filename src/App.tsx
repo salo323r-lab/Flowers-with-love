@@ -137,17 +137,17 @@ export default function App() {
         <div className="flex items-center gap-2 text-xl md:text-2xl font-serif tracking-tighter font-light">
           FLOWERS <span className="font-sans text-[8px] md:text-[10px] tracking-[0.2em] opacity-50 mt-1">WITH LOVE</span>
         </div>
-        <div className="flex items-center gap-8 text-[11px] font-sans tracking-[0.15em] uppercase">
-          <a href="tel:+380441234567" className="hidden md:flex items-center gap-2 hover:opacity-50 transition-opacity duration-300">
+        <div className="flex items-center gap-6 md:gap-8 text-[11px] font-sans tracking-[0.15em] uppercase">
+          <a href="tel:+380675617747" className="hidden md:flex items-center gap-2 hover:opacity-50 transition-opacity duration-300">
             <Phone size={14} />
-            <span>+38 (044) 123-45-67</span>
+            <span>+38 (067) 561-77-47</span>
           </a>
           <a href="https://www.instagram.com/_flowers_with_love___?igsh=MW45YnNqc204aTBjcQ==" target="_blank" rel="noreferrer" className="hover:opacity-50 transition-opacity duration-300 flex items-center gap-2">
-            <Instagram size={14} />
+            <Instagram size={24} className="md:size-[14px]" />
             <span className="hidden md:inline">Instagram</span>
           </a>
-          <a href="tel:+380441234567" className="md:hidden hover:opacity-50 transition-opacity duration-300 flex items-center gap-2">
-            <Phone size={14} />
+          <a href="tel:+380675617747" className="md:hidden hover:opacity-50 transition-opacity duration-300 flex items-center gap-2">
+            <Phone size={24} />
           </a>
         </div>
       </header>
@@ -229,28 +229,28 @@ export default function App() {
           {/* Column 1 */}
           <div className="flex flex-col gap-6 md:gap-10 mt-0">
             <motion.div variants={staggerItem} className="group relative aspect-[3/4] overflow-hidden bg-[#111]">
-              <img src="/assets/gallery_1.png" alt="Авторський букет з троянд" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_1.png" alt="Авторський букет з троянд" className="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
             <motion.div variants={staggerItem} className="group relative aspect-square overflow-hidden bg-[#111]">
-              <img src="/assets/gallery_2.png" alt="Букет з піонів" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_2.png" alt="Букет з піонів" className="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
           </div>
           {/* Column 2 */}
           <div className="flex flex-col gap-6 md:gap-10 md:mt-32">
             <motion.div variants={staggerItem} className="group relative aspect-square overflow-hidden bg-[#111]">
-              <img src="/assets/gallery_3.png" alt="Квіткова композиція" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_3.png" alt="Квіткова композиція" className="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
             <motion.div variants={staggerItem} className="group relative aspect-[3/4] overflow-hidden bg-[#111]">
-              <img src="/assets/gallery_4.png" alt="Букет у стилі бохо" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_4.png" alt="Букет у стилі бохо" className="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
           </div>
           {/* Column 3 */}
           <div className="flex flex-col gap-6 md:gap-10 md:mt-16">
             <motion.div variants={staggerItem} className="group relative aspect-[3/4] overflow-hidden bg-[#111]">
-              <img src="/assets/gallery_5.png" alt="Весільний букет" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_5.png" alt="Весільний букет" className="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
             <motion.div variants={staggerItem} className="group relative aspect-square overflow-hidden bg-[#111]">
-              <img src="/assets/gallery_6.png" alt="Мінімалістичний букет" className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
+              <img src="/assets/gallery_6.png" alt="Мінімалістичний букет" className="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000" referrerPolicy="no-referrer" loading="lazy" decoding="async" />
             </motion.div>
           </div>
         </motion.div>
@@ -288,7 +288,7 @@ export default function App() {
                 <img
                   src={bouquet.image}
                   alt={bouquet.name}
-                  className="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-all duration-1000"
                   referrerPolicy="no-referrer"
                   loading="lazy"
                   decoding="async"
@@ -377,10 +377,10 @@ export default function App() {
 
           <motion.div variants={staggerItem} className="flex flex-col sm:flex-row gap-6 items-center">
             <a
-              href="tel:+380441234567"
+              href="tel:+380675617747"
               className="w-40 h-40 md:w-48 md:h-48 rounded-full border border-white/20 flex flex-col items-center justify-center gap-3 hover:bg-[#F4F0EA] hover:text-[#050505] transition-all duration-700 group"
             >
-              <Phone size={24} className="group-hover:scale-110 transition-transform duration-500" />
+              <Phone size={40} className="md:size-[24px] group-hover:scale-110 transition-transform duration-500" />
               <span className="text-[10px] tracking-[0.2em] uppercase mt-1">Подзвонити</span>
             </a>
             <a
@@ -389,7 +389,7 @@ export default function App() {
               rel="noreferrer"
               className="w-40 h-40 md:w-48 md:h-48 rounded-full border border-white/20 flex flex-col items-center justify-center gap-3 hover:bg-[#F4F0EA] hover:text-[#050505] transition-all duration-700 group"
             >
-              <Instagram size={24} className="group-hover:scale-110 transition-transform duration-500" />
+              <Instagram size={40} className="md:size-[24px] group-hover:scale-110 transition-transform duration-500" />
               <span className="text-[10px] tracking-[0.2em] uppercase mt-1">Instagram</span>
             </a>
           </motion.div>
