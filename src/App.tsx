@@ -134,8 +134,8 @@ export default function App() {
 
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-40 p-6 md:p-10 flex items-center justify-between mix-blend-difference">
-        <div className="flex items-center gap-2 text-xl md:text-2xl font-serif tracking-tighter font-light">
-          FLOWERS <span className="font-sans text-[8px] md:text-[10px] tracking-[0.2em] opacity-50 mt-1">WITH LOVE</span>
+        <div className="flex items-center gap-2 md:gap-3 text-2xl md:text-3xl font-serif tracking-tighter font-light drop-shadow-md">
+          FLOWERS <span className="font-sans text-[10px] md:text-xs tracking-[0.2em] opacity-80 mt-1">WITH LOVE</span>
         </div>
         <div className="flex items-center gap-6 md:gap-8 text-[11px] font-sans tracking-[0.15em] uppercase">
           <a href="tel:+380675617747" className="hidden md:flex items-center gap-2 hover:opacity-50 transition-opacity duration-300">
@@ -156,9 +156,9 @@ export default function App() {
       <section className="relative h-[100svh] flex flex-col justify-end px-6 md:px-10 pb-12 md:pb-20">
         <div className="absolute top-0 right-0 w-full md:w-3/4 h-[75vh] md:h-screen opacity-60 md:opacity-100">
           <img
-            src="https://images.unsplash.com/photo-1613539246066-78db6ec4ff0f?q=80&w=2000&auto=format&fit=crop"
+            src="/assets/hero_bg.png"
             alt="Авторський букет — Flowers with Love, Київ"
-            className="w-full h-full object-cover object-center grayscale-[30%] contrast-125"
+            className="w-full h-full object-cover object-center grayscale-[10%] contrast-110"
             referrerPolicy="no-referrer"
             fetchPriority="high"
           />
