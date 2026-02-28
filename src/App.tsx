@@ -371,8 +371,7 @@ export default function App() {
             variants={staggerItem}
             className="max-w-md text-sm md:text-base opacity-60 font-light mb-16 leading-relaxed"
           >
-            Швидка та дбайлива доставка квітів по всьому Києву. <br className="hidden md:block" />
-            Безкоштовна доставка від 1000 грн.
+            Швидка та дбайлива доставка квітів по всьому Києву.
           </motion.p>
 
           <motion.div variants={staggerItem} className="flex flex-col sm:flex-row gap-6 items-center">
